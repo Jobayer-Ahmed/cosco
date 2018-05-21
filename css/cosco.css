@@ -1,0 +1,453 @@
+/*------------Button Style Start------------*/
+
+.btn {
+	display: inline-block;
+	outline: none;
+	line-height: 40px;
+	padding: 0 30px;
+	font-size: 1em;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 500;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+.disable {
+	color: #222222;
+	background: #f9f9ff;
+	border: 1px solid transparent;
+	cursor: not-allowed;
+}
+
+/*------Filled------*/
+
+.fill_default {
+	color: #222222;
+	background: #f9f9ff;
+	border: 1px solid transparent;
+}
+
+.fill_default:hover {
+	border: 1px solid #f9f9ff;
+	background: #fff;
+}
+
+.fill_primary {
+	color: #fff;
+	background: #3e69fe;
+	border: 1px solid transparent;
+}
+
+.fill_primary:hover {
+	color: #3e69fe;
+	border: 1px solid #3e69fe;
+	background: #fff;
+}
+
+.fill_success {
+	color: #fff;
+	background: #4cd3e3;
+	border: 1px solid transparent;
+}
+
+.fill_success:hover {
+	color: #4cd3e3;
+	border: 1px solid #4cd3e3;
+	background: #fff;
+}
+
+.fill_info {
+	color: #fff;
+	background: #38a4ff;
+	border: 1px solid transparent;
+}
+
+.fill_info:hover {
+	color: #38a4ff;
+	border: 1px solid #38a4ff;
+	background: #fff;
+}
+
+.fill_warning {
+	color: #fff;
+	background: #f4e700;
+	border: 1px solid transparent;
+}
+
+.fill_warning:hover {
+	color: #f4e700;
+	border: 1px solid #f4e700;
+	background: #fff;
+}
+
+.fill_dengar {
+	color: #fff;
+	background: #f44a40;
+	border: 1px solid transparent;
+}
+
+.fill_dengar:hover {
+	color: #f44a40;
+	border: 1px solid #f44a40;
+	background: #fff;
+}
+
+.fill_link {
+	color: #222222;
+	background: #f9f9ff;
+	text-decoration: underline;
+	border: 1px solid transparent;
+}
+
+.fill_link:hover {
+	color: #222222;
+	border: 1px solid #f9f9ff;
+	background: #fff;
+}
+
+
+/*------Line------*/
+
+.line_default {
+	border: 1px solid #f9f9ff;
+	background: #fff;
+}
+
+.line_default:hover {
+	color: #222222;
+	background: #f9f9ff;
+	border: 1px solid transparent;
+}
+
+.line_primary {
+	color: #3e69fe;
+	border: 1px solid #3e69fe;
+	background: #fff;
+}
+
+.line_primary:hover {
+	color: #fff;
+	background: #3e69fe;
+	border: 1px solid transparent;
+}
+
+.line_success {
+	color: #4cd3e3;
+	border: 1px solid #4cd3e3;
+	background: #fff;
+}
+
+.line_success:hover {
+	color: #fff;
+	background: #4cd3e3;
+	border: 1px solid transparent;
+}
+
+.line_info {
+	color: #38a4ff;
+	border: 1px solid #38a4ff;
+	background: #fff;
+}
+
+.line_info:hover {
+	color: #fff;
+	background: #38a4ff;
+	border: 1px solid transparent;
+}
+
+.line_warning {
+	color: #f4e700;
+	border: 1px solid #f4e700;
+	background: #fff;
+}
+
+.line_warning:hover {
+	color: #fff;
+	background: #f4e700;
+	border: 1px solid transparent;
+}
+
+.line_dengar {
+	color: #f44a40;
+	border: 1px solid #f44a40;
+	background: #fff;
+}
+
+.line_dengar:hover {
+	color: #fff;
+	background: #f44a40;
+	border: 1px solid transparent;
+}
+
+.line_link {
+	color: #222222;
+	border: 1px solid #f9f9ff;
+	background: #fff;
+	text-decoration: underline;
+}
+
+.line_link:hover {
+	color: #222222;
+	background: #f9f9ff;
+	border: 1px solid transparent;
+}
+
+/*------Size------*/
+
+.xl {
+	padding: 0 40px;
+	line-height: 50px;
+}
+
+.lg {
+	line-height: 45px;
+}
+
+.md {
+	line-height: 30px;
+}
+
+.sm {
+	line-height: 25px;
+}
+
+/*------------Button Group------------*/
+
+
+
+/*------------Button Style End------------*/
+
+/*------------Form------------*/
+
+/*------input------*/
+input[type="text"] {
+	display: block;
+	width: 100%;
+	line-height: 40px;
+	border: none;
+	outline: none;
+	background: #f9f9ff;
+	padding: 0 20px;
+}
+
+/*------input------*/
+
+/*------select and option------*/
+
+.select_default {
+	height: 40px;
+}
+
+.select_without_icon {
+	font
+	border: none;
+	border-radius: 0px;
+	height: 40px;
+	background: #f9f9ff;
+	padding-left: 20px;
+	padding-right: 40px;
+	box-sizing: border-box;
+	clear: both;
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-family: inherit;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 40px;
+	outline: none;
+	position: relative;
+	text-align: left !important;
+	transition: all 0.2s ease-in-out;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	white-space: nowrap;
+	width: 100%;
+}
+
+.select_without_icon::after {
+	right: 20px;
+	border-bottom: 2px solid #999;
+	border-right: 2px solid #999;
+	content: '';
+	display: block;
+	height: 5px;
+	margin-top: -4px;
+	pointer-events: none;
+	position: absolute;
+	top: 50%;
+	-webkit-transform-origin: 66% 66%;
+	-ms-transform-origin: 66% 66%;
+	transform-origin: 66% 66%;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-transition: all 0.15s ease-in-out;
+	transition: all 0.15s ease-in-out;
+	width: 5px;
+}
+
+.select_icon_down::after {
+	right: 20px;
+	border-bottom: 2px solid #999;
+	border-right: 2px solid #999;
+	content: '';
+	display: block;
+	height: 5px;
+	margin-top: -4px;
+	pointer-events: none;
+	position: absolute;
+	top: 50%;
+	-webkit-transform-origin: 66% 66%;
+	-ms-transform-origin: 66% 66%;
+	transform-origin: 66% 66%;
+	-webkit-transform: rotate(225deg);
+	-ms-transform: rotate(225deg);
+	transform: rotate(225deg);
+	-webkit-transition: all 0.15s ease-in-out;
+	transition: all 0.15s ease-in-out;
+	width: 5px;
+}
+
+.list {
+	margin-top: 0;
+	border: none;
+	border-radius: 0px;
+	box-shadow: none;
+	width: 100%;
+	padding: 10px 0 10px 0px;
+	background-color: #fff;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	transform-origin: 50% 0;
+	transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+	z-index: 9;
+}
+
+.list.hide {
+	margin-top: 0;
+	border: none;
+	border-radius: 0px;
+	box-shadow: none;
+	width: 100%;
+	padding: 10px 0 10px 0px;
+	background-color: #fff;box-sizing: border-box;
+	overflow: hidden;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	transform-origin: 50% 0;
+	transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+	z-index: 9;
+	display: none;
+}
+
+.list .selected {
+	color: #3e69fe;
+	background: transparent;
+
+}
+
+.list .option {
+	font-weight: 300;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	line-height: 28px;
+	min-height: 28px;
+	font-size: 15px;
+	padding-left: 20px;
+	cursor: pointer;
+	list-style: none;
+	outline: none;
+	padding-right: 29px;
+	text-align: left;
+}
+
+/*------select and option------*/
+
+/*------------CheckBox------------*/
+
+.checkbox_with_label_wrapper {
+	display: flex;
+	height: 16px;
+	padding: 15px 0px;
+}
+
+/*------Default------*/
+
+.checkbox_primary {
+	width: 16px;
+	height: 16px;
+	border-radius: 3px;
+	background: #f9f9ff;
+	position: relative;
+	cursor: pointer;
+	margin-top: 5px;
+}
+
+.checkbox_primary input {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+.checkbox_primary input + label {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 3px;
+	cursor: pointer;
+	border: 1px solid #f1f1f1;
+	display: inline-block;
+	margin-bottom: .5rem;
+}
+
+.checkbox_primary input:checked + label {
+    background: url(../img/primary-check.png) no-repeat center center/cover;
+    border: none;
+}
+
+.label {
+	margin-left: 10px;
+}
+
+/*------Default------*/
+/*------------CheckBox------------*/
+
+/*------Textarea------*/
+
+textarea {
+	display: block;
+	width: 100%;
+	line-height: 40px;
+	border: none;
+	outline: none;
+	background: #f9f9ff;
+	padding: 0 20px;
+	height: 150px;
+	resize: none;
+	overflow: auto;
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+}
+
+/*------Textarea------*/
+
