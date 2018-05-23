@@ -245,7 +245,8 @@ html {
 }
 
 .button_group .btn {
-	border-right: 0px;
+	border-right: none;
+	border-color: transparent;
 }
 
 /*------------Form------------*/
