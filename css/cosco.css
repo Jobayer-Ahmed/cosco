@@ -233,9 +233,16 @@ html {
 	line-height: 25px;
 }
 
-/*------------Button Group------------*/
+/*------Button Group------*/
 
-
+.button_group {
+	position: relative;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	vertical-align: middle;
+	margin-top: .25rem;
+	margin-bottom: .25rem;
+}
 
 /*------------Form------------*/
 
