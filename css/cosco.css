@@ -900,7 +900,14 @@ ol.o_a_list li {
 	box-shadow: 2px 4px 2px lightgray;
 }
 
-.card.subtitle {
+.card_with_subtitle {
+	width: 450px;
+	height: 450px;
+}
+
+.subtitle {
+	position: absolute;
+	bottom: 0;
 	width: 450px;
 	height: 150px;
 	background-color: #f9f9f9;
