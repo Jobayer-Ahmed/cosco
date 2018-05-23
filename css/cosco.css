@@ -779,6 +779,14 @@ ol.o_a_list li {
 	margin-left: auto;
 }
 
+.wrapper-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /*---Small Wrapper---*/
 
 @media only screen and (min-width: 576px) {
