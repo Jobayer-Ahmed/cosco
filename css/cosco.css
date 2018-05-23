@@ -888,12 +888,13 @@ ol.o_a_list li {
 /*------------Cards------------*/
 
 .card {
-	width: 400px;
-	height: 370px;
+	width: 450px;
+	height: 300px;
 	margin: 10px;
+	background-color: #F9F9FF;
 	transition: box-shadow 1s ease-in-out;
 }
 
 .card:hover {
-	box-shadow: 2px 4px 2px lightgray;
+	box-shadow: 2px 4px 2px #f2f2f2;
 }
