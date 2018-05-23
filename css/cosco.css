@@ -905,12 +905,13 @@ ol.o_a_list li {
 	height: 450px;
 }
 
-.subtitle {
+.card .subtitle {
 	position: absolute;
 	bottom: 0;
 	width: 450px;
 	height: 150px;
 	background-color: #f9f9f9;
+	z-index: 100;
 }
 
 /*------Background Color------*/
