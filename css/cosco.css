@@ -32,6 +32,7 @@ html {
 	font-weight: 500;
 	cursor: pointer;
 	transition: all 0.3s ease 0s;
+	background-color: transparent;
 }
 
 .disable {
@@ -51,7 +52,7 @@ html {
 
 .fill_default:hover {
 	border: 1px solid #f9f9ff;
-	background: #fff;
+	background: transparent;
 }
 
 .fill_primary {
@@ -63,7 +64,7 @@ html {
 .fill_primary:hover {
 	color: #3e69fe;
 	border: 1px solid #3e69fe;
-	background: #fff;
+	background: transparent;
 }
 
 .fill_success {
@@ -75,7 +76,7 @@ html {
 .fill_success:hover {
 	color: #4cd3e3;
 	border: 1px solid #4cd3e3;
-	background: #fff;
+	background: transparent;
 }
 
 .fill_info {
@@ -87,7 +88,7 @@ html {
 .fill_info:hover {
 	color: #38a4ff;
 	border: 1px solid #38a4ff;
-	background: #fff;
+	background: transparent;
 }
 
 .fill_warning {
@@ -99,7 +100,7 @@ html {
 .fill_warning:hover {
 	color: #f4e700;
 	border: 1px solid #f4e700;
-	background: #fff;
+	background: transparent;
 }
 
 .fill_dengar {
@@ -111,7 +112,7 @@ html {
 .fill_dengar:hover {
 	color: #f44a40;
 	border: 1px solid #f44a40;
-	background: #fff;
+	background: transparent;
 }
 
 .fill_link {
@@ -124,7 +125,7 @@ html {
 .fill_link:hover {
 	color: #222222;
 	border: 1px solid #f9f9ff;
-	background: #fff;
+	background: transparent;
 }
 
 
@@ -132,7 +133,7 @@ html {
 
 .line_default {
 	border: 1px solid #f9f9ff;
-	background: #fff;
+	background: transparent;
 }
 
 .line_default:hover {
@@ -144,7 +145,7 @@ html {
 .line_primary {
 	color: #3e69fe;
 	border: 1px solid #3e69fe;
-	background: #fff;
+	background: transparent;
 }
 
 .line_primary:hover {
@@ -156,7 +157,7 @@ html {
 .line_success {
 	color: #4cd3e3;
 	border: 1px solid #4cd3e3;
-	background: #fff;
+	background: transparent;
 }
 
 .line_success:hover {
@@ -168,7 +169,7 @@ html {
 .line_info {
 	color: #38a4ff;
 	border: 1px solid #38a4ff;
-	background: #fff;
+	background: transparent;
 }
 
 .line_info:hover {
@@ -180,7 +181,7 @@ html {
 .line_warning {
 	color: #f4e700;
 	border: 1px solid #f4e700;
-	background: #fff;
+	background: transparent;
 }
 
 .line_warning:hover {
@@ -192,7 +193,7 @@ html {
 .line_dengar {
 	color: #f44a40;
 	border: 1px solid #f44a40;
-	background: #fff;
+	background: transparent;
 }
 
 .line_dengar:hover {
@@ -204,7 +205,7 @@ html {
 .line_link {
 	color: #222222;
 	border: 1px solid #f9f9ff;
-	background: #fff;
+	background: transparent;
 	text-decoration: underline;
 }
 
