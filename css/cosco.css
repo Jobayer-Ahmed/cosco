@@ -414,7 +414,7 @@ input[type="text"] {
 
 /*------Default------*/
 
-.checkbox_primary {
+.checkbox {
 	width: 16px;
 	height: 16px;
 	border-radius: 3px;
@@ -424,7 +424,7 @@ input[type="text"] {
 	margin-top: 5px;
 }
 
-.checkbox_primary input {
+.checkbox input {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -435,7 +435,7 @@ input[type="text"] {
 	opacity: 0;
 }
 
-.checkbox_primary input + label {
+.checkbox input + label {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -450,7 +450,7 @@ input[type="text"] {
 	margin-bottom: .5rem;
 }
 
-.checkbox_primary input:checked + label {
+.checkbox input:checked + label {
     background: url(../img/primary-check.png) no-repeat center center/cover;
     border: none;
 }
@@ -473,7 +473,7 @@ input[type="text"] {
 
 /*------Default------*/
 
-.radio_primary {
+.radio {
 	width: 16px;
 	height: 16px;
 	border-radius: 8px;
@@ -482,7 +482,7 @@ input[type="text"] {
 	cursor: pointer;
 }
 
-.radio_primary input {
+.radio input {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -493,7 +493,7 @@ input[type="text"] {
 	opacity: 0;
 }
 
-.radio_primary input + label {
+.radio input + label {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -508,13 +508,9 @@ input[type="text"] {
 	margin-bottom: .5rem;
 }
 
-.radio_primary input:checked + label {
+.radio input:checked + label {
     background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
     border: none;
-}
-
-.label {
-	
 }
 
 /*------Textarea------*/
@@ -892,26 +888,30 @@ ol.o_a_list li {
 	height: 300px;
 	margin: 10px;
 	background-color: #F9F9FF;
-	transition: box-shadow 1s ease-in-out;
+	transition: box-shadow .5s ease-in-out;
 	text-align: center;
 }
 
-.card:hover {
+.card:hover, .card_with_subtitle:hover {
 	box-shadow: 2px 4px 2px lightgray;
 }
 
 .card_with_subtitle {
+	margin: 10px;
 	width: 450px;
 	height: 450px;
+	position: relative;
+	transition: box-shadow .5s ease-in-out;
 }
 
-.card .subtitle {
+.card_with_subtitle .subtitle {
 	position: absolute;
 	bottom: 0;
 	width: 450px;
 	height: 150px;
 	background-color: #f9f9f9;
 	z-index: 100;
+	padding: 15px;
 }
 
 /*------Background Color------*/
